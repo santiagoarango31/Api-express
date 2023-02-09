@@ -1,0 +1,27 @@
+###
+GET http://localhost:3000/api/task
+
+###
+GET http://localhost:3000/api/task/6214392d0b7c745727991678
+
+###
+POST http://localhost:3000/api/task
+Content-Type: application/json
+
+{
+    "title":"isma",
+    "description":"aaron"
+}
+
+###
+DELETE http://localhost:3000/api/task/6214370d98232e74db135ae5
+
+
+###
+PUT http://localhost:3000/api/task/6214392d0b7c745727991678
+Content-Type: application/json
+
+{
+    "title":"Ismael Santander Luna",
+    "description":"Aaron Santander Mahecha"
+}
